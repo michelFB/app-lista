@@ -1,8 +1,8 @@
+// Biblioteca Styled Components
 import styled from 'styled-components/native';
 import { Task } from './index';
 
 export const Container = styled.TouchableOpacity`
-     width: 100%;
      height: 56px;
      flex-direction: row;
      justify-content: space-between;
@@ -10,8 +10,8 @@ export const Container = styled.TouchableOpacity`
      background-color: #304163;
      border-radius: 4px;
      overflow: hidden;
+     margin-bottom: 16px;
 `;
-
 
 export const TaskText = styled.Text`
      color: #fff;
